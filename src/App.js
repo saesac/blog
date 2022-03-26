@@ -3,17 +3,18 @@ import './App.css';
 
 function App() {
 
-  let posts = '리엑트로 블로그 만들기';
-  function 함수() {
-    return 100;
-  }
+  let posts = '강남 고기 맛집';
 
   return (
     <div className="App">
       <div className='black-nav'>
         <div>Dev Blog</div>
       </div>
-      <h4> { posts } </h4>
+      <div className='list'>
+        <h3> { posts } </h3>
+        <p>2월 17일 발행</p>
+        <hr/>
+      </div>
     </div>
   );
 }
